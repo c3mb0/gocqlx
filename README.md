@@ -110,7 +110,7 @@ Copyright (C) 2017 ScyllaDB
 This project is distributed under the Apache 2.0 license. See the [LICENSE](https://github.com/scylladb/gocqlx/blob/master/LICENSE) file for details.
 It contains software from:
 
-* [gocql project](https://github.com/gocql/gocql), licensed under the BSD license
+* [gocql project](https://github.com/c3mb0/gocql), licensed under the BSD license
 * [sqlx project](https://github.com/jmoiron/sqlx), licensed under the MIT license
 
 Apache®, Apache Cassandra® are either registered trademarks or trademarks of 

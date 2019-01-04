@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gocql/gocql"
+	"github.com/c3mb0/gocql"
 	"github.com/scylladb/gocqlx"
 	. "github.com/scylladb/gocqlx/gocqlxtest"
 	"gopkg.in/inf.v0"

@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gocql/gocql"
+	"github.com/c3mb0/gocql"
 	"github.com/scylladb/gocqlx"
 	"github.com/scylladb/gocqlx/qb"
 )
