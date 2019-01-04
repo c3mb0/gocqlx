@@ -18,8 +18,8 @@ import (
 	"time"
 
 	"github.com/c3mb0/gocql"
-	"github.com/scylladb/gocqlx"
-	"github.com/scylladb/gocqlx/qb"
+	"github.com/c3mb0/gocqlx"
+	"github.com/c3mb0/gocqlx/qb"
 )
 
 const (

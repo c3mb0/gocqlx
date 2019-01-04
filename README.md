@@ -1,18 +1,18 @@
-# GoCQLX [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/scylladb/gocqlx) [![Go Report Card](https://goreportcard.com/badge/github.com/scylladb/gocqlx)](https://goreportcard.com/report/github.com/scylladb/gocqlx) [![Build Status](https://travis-ci.org/scylladb/gocqlx.svg?branch=master)](https://travis-ci.org/scylladb/gocqlx)
+# GoCQLX [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/c3mb0/gocqlx) [![Go Report Card](https://goreportcard.com/badge/github.com/c3mb0/gocqlx)](https://goreportcard.com/report/github.com/c3mb0/gocqlx) [![Build Status](https://travis-ci.org/scylladb/gocqlx.svg?branch=master)](https://travis-ci.org/scylladb/gocqlx)
 
 Package `gocqlx` is an idiomatic extension to `gocql` that provides usability features. With gocqlx you can bind the query parameters from maps and structs, use named query parameters (:identifier) and scan the query results into structs and slices. It comes with a fluent and flexible CQL query builder and a database migrations module.
 
 ## Installation
 
-    go get -u github.com/scylladb/gocqlx
+    go get -u github.com/c3mb0/gocqlx
 
 ## Features
 
 * Binding query parameters form struct or map
 * Scanning results directly into struct or slice
-* CQL query builder ([package qb](https://github.com/scylladb/gocqlx/blob/master/qb))
-* Super simple CRUD operations based on table model ([package table](https://github.com/scylladb/gocqlx/blob/master/table))
-* Database migrations ([package migrate](https://github.com/scylladb/gocqlx/blob/master/migrate))
+* CQL query builder ([package qb](https://github.com/c3mb0/gocqlx/blob/master/qb))
+* Super simple CRUD operations based on table model ([package table](https://github.com/c3mb0/gocqlx/blob/master/table))
+* Database migrations ([package migrate](https://github.com/c3mb0/gocqlx/blob/master/migrate))
 * Fast!
 
 ## Example
@@ -85,7 +85,7 @@ var personTable = table.New(personMetadata)
 }
 ```
 
-See more examples in [example_test.go](https://github.com/scylladb/gocqlx/blob/master/example_test.go) and [table/example_test.go](https://github.com/scylladb/gocqlx/blob/master/table/example_test.go).
+See more examples in [example_test.go](https://github.com/c3mb0/gocqlx/blob/master/example_test.go) and [table/example_test.go](https://github.com/c3mb0/gocqlx/blob/master/table/example_test.go).
 
 ## Performance
 
@@ -101,13 +101,13 @@ BenchmarkE2EGocqlSelect             1000           1792469 ns/op           43595
 BenchmarkE2EGocqlxSelect            1000           1839574 ns/op           36986 B/op        927 allocs/op
 ```
 
-See the benchmark in [benchmark_test.go](https://github.com/scylladb/gocqlx/blob/master/benchmark_test.go).
+See the benchmark in [benchmark_test.go](https://github.com/c3mb0/gocqlx/blob/master/benchmark_test.go).
 
 ## License
 
 Copyright (C) 2017 ScyllaDB
 
-This project is distributed under the Apache 2.0 license. See the [LICENSE](https://github.com/scylladb/gocqlx/blob/master/LICENSE) file for details.
+This project is distributed under the Apache 2.0 license. See the [LICENSE](https://github.com/c3mb0/gocqlx/blob/master/LICENSE) file for details.
 It contains software from:
 
 * [gocql project](https://github.com/c3mb0/gocql), licensed under the BSD license

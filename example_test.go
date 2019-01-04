@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scylladb/gocqlx"
-	. "github.com/scylladb/gocqlx/gocqlxtest"
-	"github.com/scylladb/gocqlx/qb"
+	"github.com/c3mb0/gocqlx"
+	. "github.com/c3mb0/gocqlx/gocqlxtest"
+	"github.com/c3mb0/gocqlx/qb"
 )
 
 func TestExample(t *testing.T) {

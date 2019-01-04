@@ -1,4 +1,4 @@
-module github.com/scylladb/gocqlx
+module github.com/c3mb0/gocqlx
 
 require (
 	github.com/c3mb0/gocql v0.0.0-20180530083731-3c37daec2f4d

@@ -10,7 +10,7 @@ import (
 	"reflect"
 
 	"github.com/c3mb0/gocql"
-	"github.com/scylladb/gocqlx/reflectx"
+	"github.com/c3mb0/gocqlx/reflectx"
 )
 
 // structOnlyError returns an error appropriate for type when a non-scannable
